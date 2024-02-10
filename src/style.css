@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Sans", sans-serif;
+}
+
+:root {
+  --color-primary: #0069a3;
+  --color-secundary: #f4d73b;
+  --color-violeta: #44276f;
+}
+
+.logo_uam {
+  width: 175px;
+  height: 65px;
+  margin-inline-start: 12.5px;
+}
+
+#nav_1 {
+  background-color: var(--color-primary);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+#nav_2 {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  margin-top: 80px;
+}
+
+#nav_1 .navbar-nav .nav-link {
+  color: white;
+  font-weight: bold;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 17px;
+}
+
+#nav_2 .navbar-nav .nav-link {
+  text-align: center;
+  color: var(--color-primary);
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+}
+
+#nav_1 .navbar-nav .nav-link:hover,
+#nav_2 .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+#ul_1 .nav-item .nav-link {
+  margin-inline-end: 20px;
+}
+
+#ul_2 .nav-item .nav-link {
+  margin-inline-end: 18px;
+}
+
+#img_1 {
+  width: 100%;
+  height: auto;
+}
+
+#img_1_txt {
+  left: 83px;
+  text-align: left;
+  font: normal normal bold 35px/42px Fira Sans;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 58%;
+}
+
+#span_1 {
+  text-align: center;
+  color: #343A40;
+  margin-top: 65px;
+  margin-bottom: 65px;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18.5px;
+}
+
+#img_2 {
+  margin-bottom: 50px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#img_3 {
+  width: 90%;
+  box-sizing: border-box;
+  margin-left: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.rectangle_1 {
+  position: absolute;
+  width: 45%;
+  height: 51%;
+  background-color: #9CD04D;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.rectangle_2 {
+  position: absolute;
+  width: 42.5%;
+  height: 48%;
+  background-color: #9CD04D;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+#img_2_txt h1 {
+  color: white;
+  margin-top: 25px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  font: normal normal 600 32px/35px Fira Sans;
+}
+
+#img_2_txt p {
+  color: #343A40;
+  text-align: left;
+  margin-left: 60px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.rectangle_3 {
+  background-color: #F4D73B;
+}
+
+#img_3_txt h1 {
+  color: white;
+  margin-top: 25px;
+  margin-left: 25px;
+  font: normal normal 600 32px/35px Fira Sans;
+}
+
+#img_3_txt p {
+  color: #343A40;
+  text-align: left;
+  margin-left: 25px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.title_rectores {
+  margin-top: 65px;
+  text-align: center;
+  font: normal normal 600 41px/49px Fira Sans;
+  color: var(--color-primary);
+}
+
+#rectores_list {
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+}
+
+#rectores_list h3 {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+#rectores_list h5 {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+#rectores_list img {
+  width: 50%;
+  height: 50%;
+}
+
+#rectores_list .card {
+  align-items: center;
+  min-height: 535px;
+  padding: 2.5px;
+  border: none !important;
+}
+
+.rectangle_4 {
+  background-color: #F4D73B;
+  border-radius: 10px;
+}
+
+.rectangle_4 img {
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 70px;
+  width: 60px;
+  height: 50px;
+}
+
+.rectangle_4 h2 {
+  padding-top: 40px;
+  margin-left: 150px;
+  font-family: "Fira Sans", sans-serif;
+  color: var(--color-primary);
+}
+
+.rectangle_4 p {
+  padding-top: 20px;
+  padding-bottom: 88px;
+  margin-left: 60px;
+  font-family: "Fira Sans", sans-serif;
+  color: #343A40;
+}
+
+
+.rectangle_5 {
+  background-color: #F4D73B;
+  border-radius: 10px;
+}
+
+.rectangle_5 img {
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 75px;
+  width: 60px;
+  height: 50px;
+}
+
+.rectangle_5 h2 {
+  padding-top: 40px;
+  margin-left: 150px;
+  font-family: "Fira Sans", sans-serif;
+  color: var(--color-primary);
+}
+
+.rectangle_5 p {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-left: 72.5px;
+  font-family: "Fira Sans", sans-serif;
+  color: #343A40;
+}
+
+.title_valores {
+  position: absolute;
+  text-align: center;
+  margin-left: 65px;
+  margin-top: 190px;
+  color: var(--color-primary);
+  font-family: "Fira Sans", sans-serif;
+}
+
+#valores img {
+  margin-left: 80px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#valores p {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: var(--color-primary);
+  font: normal normal medium 20px/24px Fira Sans;
+}
+
+.rectangle_6 {
+  margin-top: 100px;
+  padding-bottom: 50px;
+  background-color: #E6F2FF;
+}
+
+.rectangle_6 .col {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.rectangle_6 #obj_estra {
+  padding-top: 35px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.rectangle_7 {
+  background-color: var(--color-primary);
+  padding: 15px;
+  display: flex;
+  border-radius: 10px 10px 0px 0px;
+  justify-content: center;
+}
+
+.rectangle_7 img {
+  width: 25%;
+  height: auto;
+}
+
+.title_obj_estra {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+  font: normal normal 600 41px/49px Fira Sans;
+  color: var(--color-primary);
+}
+
+#obj_estra img {
+  width: 20%;
+  height: auto;
+}
+
+.rectangle_8 {
+  padding: 30px;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.rectangle_8 p {
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+}
+
+#obj_estra p {
+  padding: 20px;
+}
+
+.rectangle_9 {
+  margin-top: 60px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  background-color: #E6F2FF;
+}
+
+#himno_uam h1 {
+  font-family: "Fira Sans", sans-serif;
+  color: var(--color-primary);
+  margin-left: 195px;
+  padding-top: 50px;
+}
+
+#himno_uam p {
+  font-family: "Fira Sans", sans-serif;
+  color: #343A40;
+  margin-left: 65px;
+  padding-top: 50px;
+}
+
+#video_uam {
+  position: absolute;
+  border-radius: 10px;
+  top: 708%;
+  left: 58.5%;
+}
+
+#container_footer {
+  background-color: var(--color-primary);
+}
+
+#footer {
+  padding: 30px
+}
+
+.redes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hr_1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #FFFFFF;
+  opacity: 1;
+}
+
+.title_footer {
+  font-family: "Fira Sans", sans-serif;
+  color: var(--color-secundary);
+}
+
+#footer p {
+  font-family: "Fira Sans", sans-serif;
+  color: white;
+}

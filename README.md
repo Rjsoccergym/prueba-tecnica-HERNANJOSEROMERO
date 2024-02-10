@@ -4,4 +4,4 @@ Para el desarrollo de la página web a replicar se utilizó: **CSS (Vanilla), HT
 
 Lading Page - Universidad Autónoma de Manizales
 
-© Rjsoccergym - `date +"%Y"`
+**© Rjsoccergym - 2024**
